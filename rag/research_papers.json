@@ -1,0 +1,555 @@
+{
+    "1": {
+        "reference_id": "25",
+        "citation": "Takada et al., Int J Cancer 2021",
+        "title": "Clinical impact of probiotics on the efficacy of anti-PD-1 monotherapy in patients with NSCLC",
+        "year": 2021,
+        "tags": {
+            "treatment": [
+                "PD-1/PD-L1 Blockade"
+            ],
+            "cancer": [
+                "NSCLC"
+            ],
+            "biology": [
+                "Gut microbiome composition",
+                "Alpha diversity"
+            ],
+            "intervention": [
+                "Probiotics"
+            ]
+        }
+    },
+    "2": {
+        "reference_id": "2",
+        "citation": "Maynard et al., Nature 2012",
+        "title": "Reciprocal interactions of the intestinal microbiota and immune system",
+        "year": 2012,
+        "tags": {
+            "treatment": [],
+            "cancer": [],
+            "biology": [
+                "Innate immunity",
+                "Adaptive immunity",
+                "T cell-microbiota interactions",
+                "Immune homeostasis"
+            ],
+            "intervention": [
+                "Review article"
+            ]
+        }
+    },
+    "3": {
+        "reference_id": "3",
+        "citation": "Dzutsev et al., Annu Rev Immunol 2017",
+        "title": "Microbes and cancer",
+        "year": 2017,
+        "tags": {
+            "treatment": [],
+            "cancer": [
+                "General"
+            ],
+            "biology": [
+                "Tumorigenesis",
+                "Microbiome-cancer interactions",
+                "Inflammation"
+            ],
+            "intervention": [
+                "Review article"
+            ]
+        }
+    },
+    "4": {
+        "reference_id": "4",
+        "citation": "Zheng et al., Cell Res 2020",
+        "title": "Interaction between microbiota and immunity in health and disease",
+        "year": 2020,
+        "tags": {
+            "treatment": [],
+            "cancer": [],
+            "biology": [
+                "Immune modulation",
+                "Inflammation",
+                "Host-microbiota interactions"
+            ],
+            "intervention": [
+                "Review article"
+            ]
+        }
+    },
+    "5": {
+        "reference_id": "5",
+        "citation": "Cullin et al., Cancer Cell 2021",
+        "title": "Microbiome and cancer",
+        "year": 2021,
+        "tags": {
+            "treatment": [],
+            "cancer": [
+                "General"
+            ],
+            "biology": [
+                "Tumor microenvironment",
+                "Microbiome-cancer interactions",
+                "Immune regulation"
+            ],
+            "intervention": [
+                "Review article"
+            ]
+        }
+    },
+    "44": {
+        "reference_id": "44",
+        "citation": "Han et al., Nat Biomed Eng 2021",
+        "title": "Generation of systemic anti-tumour immunity via the in situ modulation of the gut microbiome by an orally administered inulin gel",
+        "year": 2021,
+        "tags": {
+            "treatment": [
+                "PD-1/PD-L1 Blockade"
+            ],
+            "cancer": [
+                "Preclinical tumor models"
+            ],
+            "biology": [
+                "Memory T cells",
+                "Microbiome modulation"
+            ],
+            "intervention": [
+                "Prebiotics",
+                "Inulin"
+            ]
+        }
+    },
+    "46": {
+        "reference_id": "46",
+        "citation": "Wastyk et al., Cell 2021",
+        "title": "Gut-microbiota-targeted diets modulate human immune status",
+        "year": 2021,
+        "tags": {
+            "treatment": [],
+            "cancer": [],
+            "biology": [
+                "Fiber",
+                "Fermented foods",
+                "Microbial diversity",
+                "Inflammatory markers"
+            ],
+            "intervention": [
+                "Diet",
+                "High-fiber diet",
+                "Fermented food diet"
+            ]
+        }
+    },
+    "47": {
+        "reference_id": "47",
+        "citation": "Huang et al., Gut 2022",
+        "title": "Ginseng polysaccharides alter the gut microbiota and kynurenine/tryptophan ratio, potentiating anti-PD-1/PD-L1 immunotherapy",
+        "year": 2022,
+        "tags": {
+            "treatment": [
+                "PD-1/PD-L1 Blockade"
+            ],
+            "cancer": [
+                "Preclinical tumor models"
+            ],
+            "biology": [
+                "Tryptophan metabolism",
+                "Kynurenine pathway",
+                "Microbiome modulation"
+            ],
+            "intervention": [
+                "Prebiotics",
+                "Polysaccharides"
+            ]
+        }
+    },
+
+{
+  "6": {
+    "reference_id": "6",
+    "citation": "Routy et al., Science 2018",
+    "title": "Gut microbiome influences efficacy of PD-1-based immunotherapy against epithelial tumors",
+    "year": 2018,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["NSCLC", "RCC"],
+      "biology": ["Akkermansia muciniphila", "Alpha diversity", "FMT validation"],
+      "intervention": ["Fecal microbiota transplantation"]
+    }
+  },
+  "8": {
+    "reference_id": "8",
+    "citation": "Matson et al., Science 2018",
+    "title": "The commensal microbiome is associated with anti-PD-1 efficacy in metastatic melanoma patients",
+    "year": 2018,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["Melanoma"],
+      "biology": ["Bifidobacterium", "Faecalibacterium", "FMT validation"],
+      "intervention": ["Fecal microbiota transplantation"]
+    }
+  },
+  "9": {
+    "reference_id": "9",
+    "citation": "Jin et al., J Thorac Oncol 2019",
+    "title": "The diversity of gut microbiome is associated with favorable responses to anti-PD-1 immunotherapy in Chinese NSCLC patients",
+    "year": 2019,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["NSCLC"],
+      "biology": ["Alpha diversity", "Alistipes", "Prevotella"],
+      "intervention": []
+    }
+  },
+  "10": {
+    "reference_id": "10",
+    "citation": "Lee et al., Nat Med 2022",
+    "title": "Cross-cohort gut microbiome associations with immune checkpoint inhibitor response in advanced melanoma",
+    "year": 2022,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["Melanoma"],
+      "biology": ["Roseburia", "Akkermansia", "Bifidobacterium", "Meta-analysis"],
+      "intervention": []
+    }
+  },
+  "11": {
+    "reference_id": "11",
+    "citation": "Smith et al., Nat Med 2022",
+    "title": "Gut microbiome correlates of response and toxicity following anti-CD19 CAR T cell therapy",
+    "year": 2022,
+    "tags": {
+      "treatment": ["CAR-T"],
+      "cancer": ["B-cell lymphoma"],
+      "biology": ["Ruminococcus", "Bacteroides", "Faecalibacterium", "Cytokine release syndrome"],
+      "intervention": []
+    }
+  },
+  "12": {
+    "reference_id": "12",
+    "citation": "Stein-Thoeringer et al., Nat Med 2023",
+    "title": "A non-antibiotic-disrupted gut microbiome is associated with clinical responses to CD19-CAR-T cell cancer immunotherapy",
+    "year": 2023,
+    "tags": {
+      "treatment": ["CAR-T"],
+      "cancer": ["Lymphoma"],
+      "biology": ["Akkermansia", "Ruminococcus lactaris", "Alpha diversity"],
+      "intervention": ["Antibiotic exposure"]
+    }
+  },
+  "13": {
+    "reference_id": "13",
+    "citation": "Hu et al., Nat Commun 2022",
+    "title": "CAR-T cell therapy-related cytokine release syndrome and therapeutic response is modulated by the gut microbiome in hematologic malignancies",
+    "year": 2022,
+    "tags": {
+      "treatment": ["CAR-T"],
+      "cancer": ["Hematologic malignancies"],
+      "biology": ["Faecalibacterium", "Roseburia", "Cytokine release syndrome"],
+      "intervention": []
+    }
+  },
+  "15": {
+    "reference_id": "15",
+    "citation": "Luu et al., Nat Commun 2021",
+    "title": "Microbial short-chain fatty acids modulate CD8+ T cell responses and improve adoptive immunotherapy for cancer",
+    "year": 2021,
+    "tags": {
+      "treatment": ["ACT"],
+      "cancer": ["Preclinical tumor models"],
+      "biology": ["SCFAs", "Butyrate", "CD8+ T cells"],
+      "intervention": ["Short-chain fatty acids supplementation"]
+    }
+  },
+  "16": {
+    "reference_id": "16",
+    "citation": "He et al., Cell Metab 2021",
+    "title": "Gut microbial metabolites facilitate anticancer therapy efficacy by modulating cytotoxic CD8+ T cell immunity",
+    "year": 2021,
+    "tags": {
+      "treatment": ["Immunotherapy"],
+      "cancer": ["Preclinical tumor models"],
+      "biology": ["SCFAs", "Microbial metabolites", "CD8+ T cells"],
+      "intervention": []
+    }
+  },
+  "18": {
+    "reference_id": "18",
+    "citation": "Paik et al., Nature 2022",
+    "title": "Human gut bacteria produce TH17-modulating bile acid metabolites",
+    "year": 2022,
+    "tags": {
+      "treatment": [],
+      "cancer": [],
+      "biology": ["Bile acids", "Th17 cells", "Microbial metabolites"],
+      "intervention": []
+    }
+  },
+  "19": {
+    "reference_id": "19",
+    "citation": "Bender et al., Cell 2023",
+    "title": "Dietary tryptophan metabolite released by intratumoral Lactobacillus reuteri facilitates immune checkpoint inhibitor treatment",
+    "year": 2023,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["Melanoma"],
+      "biology": ["Tryptophan metabolism", "Indole derivatives", "Lactobacillus reuteri"],
+      "intervention": ["Dietary tryptophan modulation"]
+    }
+  },
+  "20": {
+    "reference_id": "20",
+    "citation": "Hezaveh et al., Immunity 2022",
+    "title": "Tryptophan-derived microbial metabolites activate the aryl hydrocarbon receptor in tumor-associated macrophages to suppress anti-tumor immunity",
+    "year": 2022,
+    "tags": {
+      "treatment": [],
+      "cancer": ["Preclinical tumor models"],
+      "biology": ["Tryptophan metabolism", "Aryl hydrocarbon receptor", "Tumor-associated macrophages"],
+      "intervention": []
+    }
+  },
+  "23": {
+    "reference_id": "23",
+    "citation": "McCulloch et al., Nat Med 2022",
+    "title": "Intestinal microbiota signatures of clinical response and immune-related adverse events in melanoma patients treated with anti-PD-1",
+    "year": 2022,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["Melanoma"],
+      "biology": ["Immune-related adverse events", "Bacteroides", "Microbiome composition"],
+      "intervention": []
+    }
+  },
+  "24": {
+    "reference_id": "24",
+    "citation": "Derosa et al., Nat Med 2022",
+    "title": "Intestinal Akkermansia muciniphila predicts clinical response to PD-1 blockade in patients with advanced NSCLC",
+    "year": 2022,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["NSCLC"],
+      "biology": ["Akkermansia muciniphila", "Antibiotic exposure", "Microbiome composition"],
+      "intervention": ["Antibiotics"]
+    }
+  },
+  "26": {
+    "reference_id": "26",
+    "citation": "Zheng et al., J Immunother Cancer 2019",
+    "title": "Gut microbiome affects the response to anti-PD-1 immunotherapy in patients with HCC",
+    "year": 2019,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["HCC"],
+      "biology": ["Akkermansia", "Ruminococcaceae", "Microbiome composition"],
+      "intervention": []
+    }
+  },
+  "27": {
+    "reference_id": "27",
+    "citation": "Lee et al., J Immunother Cancer 2022",
+    "title": "Gut microbiota and metabolites associate with outcomes of immune checkpoint inhibitor-treated unresectable HCC",
+    "year": 2022,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["HCC"],
+      "biology": ["Microbial metabolites", "Lachnospiraceae", "Metabolomics"],
+      "intervention": []
+    }
+  },
+  "28": {
+    "reference_id": "28",
+    "citation": "Limeta et al., JCI Insight 2020",
+    "title": "Meta-analysis of the gut microbiota in predicting response to cancer immunotherapy in metastatic melanoma",
+    "year": 2020,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["Melanoma"],
+      "biology": ["Meta-analysis", "Microbiome composition", "Biomarker discovery"],
+      "intervention": []
+    }
+  },
+  "29": {
+    "reference_id": "29",
+    "citation": "Spencer et al., Science 2021",
+    "title": "Dietary fiber and probiotics influence the gut microbiome and melanoma immunotherapy response",
+    "year": 2021,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["Melanoma"],
+      "biology": ["Dietary fiber", "Microbiome diversity", "Immune modulation"],
+      "intervention": ["Diet", "Probiotics"]
+    }
+  },
+  "30": {
+    "reference_id": "30",
+    "citation": "Simpson et al., Nat Med 2022",
+    "title": "Diet-driven microbial ecology underpins associations between cancer immunotherapy outcomes and the gut microbiome",
+    "year": 2022,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["Melanoma"],
+      "biology": ["Dietary fiber", "Microbial ecology", "Microbiome composition"],
+      "intervention": ["Diet"]
+    }
+  },
+  "31": {
+    "reference_id": "31",
+    "citation": "Paulos et al., J Clin Invest 2007",
+    "title": "Microbial translocation augments the function of adoptively transferred self/tumor-specific CD8+ T cells via TLR4 signaling",
+    "year": 2007,
+    "tags": {
+      "treatment": ["ACT"],
+      "cancer": ["Preclinical tumor models"],
+      "biology": ["TLR4 signaling", "LPS", "CD8+ T cells"],
+      "intervention": []
+    }
+  },
+  "32": {
+    "reference_id": "32",
+    "citation": "Uribe-Herranz et al., JCI Insight 2018",
+    "title": "Gut microbiota modulates adoptive cell therapy via CD8α dendritic cells and IL-12",
+    "year": 2018,
+    "tags": {
+      "treatment": ["ACT"],
+      "cancer": ["Preclinical tumor models"],
+      "biology": ["Dendritic cells", "IL-12", "Antibiotic exposure"],
+      "intervention": ["Vancomycin"]
+    }
+  },
+  "33": {
+    "reference_id": "33",
+    "citation": "Luu et al., Sci Rep 2018",
+    "title": "Regulation of the effector function of CD8+ T cells by gut microbiota-derived metabolite butyrate",
+    "year": 2018,
+    "tags": {
+      "treatment": ["ACT"],
+      "cancer": ["Preclinical tumor models"],
+      "biology": ["Butyrate", "HDAC inhibition", "CD8+ T cells"],
+      "intervention": ["Short-chain fatty acids supplementation"]
+    }
+  },
+  "34": {
+    "reference_id": "34",
+    "citation": "Yang et al., Oncoimmunology 2021",
+    "title": "Blood microbiota diversity determines response of advanced CRC to chemotherapy combined with adoptive T cell immunotherapy",
+    "year": 2021,
+    "tags": {
+      "treatment": ["ACT"],
+      "cancer": ["CRC"],
+      "biology": ["Blood microbiome", "Bifidobacterium", "Microbial diversity"],
+      "intervention": ["Chemotherapy"]
+    }
+  },
+  "37": {
+    "reference_id": "37",
+    "citation": "Derosa et al., Ann Oncol 2018",
+    "title": "Negative association of antibiotics on clinical activity of immune checkpoint inhibitors in patients with advanced RCC and NSCLC",
+    "year": 2018,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["RCC", "NSCLC"],
+      "biology": ["Microbiome disruption"],
+      "intervention": ["Antibiotics"]
+    }
+  },
+  "38": {
+    "reference_id": "38",
+    "citation": "Wilson et al., Cancer Immunol Immunother 2020",
+    "title": "The effect of antibiotics on clinical outcomes in immune-checkpoint blockade: a systematic review and meta-analysis",
+    "year": 2020,
+    "tags": {
+      "treatment": ["ICI"],
+      "cancer": ["Multiple cancers"],
+      "biology": ["Meta-analysis", "Microbiome disruption"],
+      "intervention": ["Antibiotics"]
+    }
+  },
+  "39": {
+    "reference_id": "39",
+    "citation": "Peiffer et al., Neoplasia 2022",
+    "title": "Composition of gastrointestinal microbiota in association with treatment response in individuals with metastatic CRPC receiving pembrolizumab",
+    "year": 2022,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["Prostate cancer"],
+      "biology": ["Microbiome composition", "Treatment response"],
+      "intervention": ["Antibiotics"]
+    }
+  },
+  "40": {
+    "reference_id": "40",
+    "citation": "Elkrief et al., Oncoimmunology 2019",
+    "title": "Antibiotics are associated with decreased PFS in advanced melanoma patients treated with ICI",
+    "year": 2019,
+    "tags": {
+      "treatment": ["ICI"],
+      "cancer": ["Melanoma"],
+      "biology": ["Microbiome disruption", "Progression-free survival"],
+      "intervention": ["Antibiotics"]
+    }
+  },
+  "41": {
+    "reference_id": "41",
+    "citation": "Chalabi et al., Ann Oncol 2020",
+    "title": "Efficacy of chemotherapy and atezolizumab in patients with NSCLC receiving antibiotics and PPIs",
+    "year": 2020,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["NSCLC"],
+      "biology": ["Microbiome disruption"],
+      "intervention": ["Proton pump inhibitors", "Antibiotics"]
+    }
+  },
+  "42": {
+    "reference_id": "42",
+    "citation": "Tomita et al., Oncoimmunology 2022",
+    "title": "Clostridium butyricum therapy restores the decreased efficacy of ICI in lung cancer patients receiving PPIs",
+    "year": 2022,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["NSCLC"],
+      "biology": ["Clostridium butyricum", "Microbiome modulation"],
+      "intervention": ["Probiotics", "Proton pump inhibitors"]
+    }
+  },
+  "43": {
+    "reference_id": "43",
+    "citation": "Terrisse et al., Cell Death Differ 2021",
+    "title": "Intestinal microbiota influences clinical outcome and side effects of early breast cancer treatment",
+    "year": 2021,
+    "tags": {
+      "treatment": ["Chemotherapy"],
+      "cancer": ["Breast cancer"],
+      "biology": ["Dysbiosis", "Treatment toxicity"],
+      "intervention": []
+    }
+  },
+  "45": {
+    "reference_id": "45",
+    "citation": "Zhang et al., Theranostics 2021",
+    "title": "Pectin supplement significantly enhanced the anti-PD-1 efficacy in tumor-bearing mice humanized with gut microbiota from CRC patients",
+    "year": 2021,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade"],
+      "cancer": ["CRC", "Preclinical tumor models"],
+      "biology": ["Butyrate production", "Microbiome modulation"],
+      "intervention": ["Prebiotics", "Pectin"]
+    }
+  },
+  "48": {
+    "reference_id": "48",
+    "citation": "Dizman et al., Nat Med 2022",
+    "title": "Nivolumab plus ipilimumab with or without live bacterial supplementation (CBM588) in metastatic RCC: a randomized phase 1 trial",
+    "year": 2022,
+    "tags": {
+      "treatment": ["PD-1/PD-L1 Blockade", "CTLA-4 Blockade"],
+      "cancer": ["RCC"],
+      "biology": ["Clostridium butyricum", "Microbiome modulation"],
+      "intervention": ["Probiotics", "Live bacterial supplementation"]
+    }
+  }
+}
+
+
+

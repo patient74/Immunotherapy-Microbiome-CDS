@@ -1,0 +1,93 @@
+{
+  "extraction_version": "1.0",
+  "extraction_date": "YYYY-MM-DD",
+
+  "patient": {
+    "id": "",
+    "age": 0,
+    "gender": ""
+  },
+
+  "cancer": {
+    "type": "",
+    "subtype": "",
+    "stage": "",
+    "primary_site": "",
+    "metastases": [],
+    "biomarkers": {
+      "pdl1_expression": "",
+      "tmb": "",
+      "msi_status": ""
+    },
+    "diagnosis_date": "YYYY-MM-DD"
+  },
+
+  "immunotherapy": {
+    "therapy_type": "",
+    "drug_name": "",
+    "drug_class": "",
+    "treatment_setting": "",
+    "line_of_therapy": "",
+    "planned_start_date": "YYYY-MM-DD",
+    "ici_details": null,
+    "act_details": null
+  },
+
+  "prior_treatments": {
+    "chemotherapy": {
+      "received": false,
+      "regimens": [],
+      "response": ""
+    },
+    "prior_immunotherapy": {
+      "received": false,
+      "drugs": [],
+      "response": ""
+    }
+  },
+
+  "medications": {
+    "ppi_use": {
+      "currently_on_ppi": false,
+      "ppi_name": "",
+      "duration_months": 0
+    },
+    "antibiotic_history": {
+      "recent_antibiotics": false,
+      "exposures": []
+    }
+  },
+
+  "comorbidities": [],
+
+  "microbiome": {
+    "sample_date": "YYYY-MM-DD",
+    "sequencing_method": "",
+    "diversity": {
+      "shannon_index": 0.0,
+      "simpson_index": 0.0,
+      "observed_species": 0
+    },
+    "key_bacteria": {},
+    "metabolites": {
+      "scfa": {
+        "butyrate_uM": null,
+        "propionate_uM": null,
+        "acetate_uM": null
+      },
+      "bile_acids_available": false,
+      "tryptophan_metabolites_available": false
+    },
+    "data_quality": {
+      "completeness": "",
+      "source": "",
+      "limitations": []
+    }
+  },
+
+  "clinical_context": {
+    "urgency": "",
+    "patient_goals": [],
+    "specific_concerns": []
+  }
+}

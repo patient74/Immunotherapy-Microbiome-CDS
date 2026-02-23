@@ -1,0 +1,17 @@
+# PDF to ChromaDB Pipeline Requirements
+# For research paper processing with PubMedBERT embeddings
+
+# Core dependencies
+docling>=1.0.0                    # PDF extraction
+transformers>=4.40.0              # PubMedBERT tokenizer (aligned with root)
+torch>=2.0.0                      # Required by transformers
+sentence-transformers>=2.5.0      # Embedding generation (aligned with root)
+chromadb>=0.4.0                   # Vector database
+
+# Optional but recommended
+numpy>=1.24.0                     # Array operations
+tqdm>=4.65.0                      # Progress bars (used by sentence-transformers)
+
+# For development/testing
+ipython>=8.0.0                    # Interactive shell
+jupyter>=1.0.0                    # Notebook support

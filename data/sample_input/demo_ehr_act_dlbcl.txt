@@ -1,0 +1,268 @@
+================================================================================
+UNIVERSITY MEDICAL CENTER - CELLULAR THERAPY
+================================================================================
+Patient: Marcus Johnson | MRN: UMC-556219 | DOB: 06/08/1965 (Age: 60)
+Gender: Male | Visit Date: February 8, 2026
+
+CHIEF COMPLAINT:
+CAR-T therapy consultation for relapsed/refractory DLBCL.
+
+HISTORY:
+60-year-old male with DLBCL initially diagnosed March 2024. Failed R-CHOP (CR
+6 months, relapsed) and R-ICE (PR, progressed at 4 months). Now stage IV with
+bone marrow involvement. Planned for axicabtagene ciloleucel (CD19 CAR-T).
+
+LYMPHOMA DIAGNOSIS:
+- Histology: Diffuse Large B-Cell Lymphoma (non-GCB, ABC type)
+- Stage: IV (bone marrow 15% involvement)
+- Initial Diagnosis: March 18, 2024
+- CD19: Positive (95% tumor cells) - CAR-T eligible
+- High-risk features: BCL2+ (70%), TP53 mutation, Revised IPI 4
+
+PRIOR TREATMENTS:
+1. R-CHOP × 6 (Apr-Aug 2024) → CR 6 months → Relapsed
+2. R-ICE × 3 (Apr-Jun 2025) → PR → Progressed Oct 2025
+3. Gemcitabine bridging (weekly, Jan 2026) → Stable disease
+
+CAR-T PLAN:
+- Product: Axicabtagene ciloleucel (Yescarta) - CD19-targeted
+- Leukapheresis: February 14, 2026
+- Manufacturing: ~17-21 days
+- Lymphodepletion: Fludarabine/Cyclophosphamide (March 7-9, 2026)
+- CAR-T Infusion: March 10, 2026 (Day 0)
+
+CURRENT MEDICATIONS:
+1. Levofloxacin 500mg daily (bacterial prophylaxis - ACTIVE)
+2. Acyclovir 400mg BID (viral prophylaxis)
+3. Fluconazole 200mg daily (fungal prophylaxis)
+4. Lisinopril 20mg daily (hypertension)
+5. Atorvastatin 40mg daily (hyperlipidemia)
+
+ANTIBIOTIC EXPOSURE:
+Current Prophylaxis (ACTIVE):
+- Levofloxacin 500mg daily since January 25, 2026 (14 days at microbiome sampling)
+- Indication: Neutropenia prophylaxis post-chemotherapy
+- Will continue through CAR-T per protocol
+
+Recent Therapeutic:
+- Piperacillin-tazobactam 4.5g IV Q6H × 10 days (Dec 18-27, 2025)
+- Indication: Febrile neutropenia with pneumonia
+- Days before CAR-T: ~73 days
+
+PPI USE: None
+
+PAST MEDICAL HISTORY:
+Hypertension, hyperlipidemia, Type 2 diabetes (HbA1c 6.8%), chronic back pain.
+No autoimmune disease. No seizure history (neurotoxicity risk assessment).
+
+PERFORMANCE STATUS: ECOG 2 | Karnofsky 70%
+
+VITALS: BP 142/88 | HR 88 | SpO2 97% RA | Temp 98.8°F
+Weight 198 lbs (90 kg, down 22 lbs) | Height 5'11" (180 cm) | BMI 27.6 | BSA 2.11 m²
+
+KEY LABS (February 6, 2026):
+- WBC 3.2, Hgb 10.8, Plt 142, ANC 1.8, ALC 0.9 (lymphopenia post-chemo)
+- Creatinine 1.1, eGFR 76 (adequate for CAR-T)
+- AST/ALT 34/42, normal bilirubin
+- LDH 345 (elevated - disease burden), CRP 24.8, Ferritin 485
+
+IMAGING (February 2026):
+- PET-CT: Retroperitoneal nodes 3.2cm SUVmax 18.4, Mesenteric mass 4.8cm SUVmax 22.1
+- Bone marrow: Diffuse uptake (involvement)
+- Deauville Score: 5 (very active disease)
+- MRI Brain: No CNS involvement
+- Echo: LVEF 58% (normal)
+
+================================================================================
+MICROBIOME ANALYSIS - SUBOPTIMAL BUT MODIFIABLE
+================================================================================
+Sample Date: February 5, 2026 (33 days before planned CAR-T infusion)
+Method: Shotgun metagenomic sequencing (Illumina NovaSeq, 12M reads)
+Lab: Precision Microbiome Diagnostics
+
+CLINICAL CONTEXT:
+- On prophylactic levofloxacin × 14 days at sampling
+- Recent piperacillin-tazobactam 49 days prior
+- Multiple prior chemotherapy regimens
+- Immunosuppressed (lymphopenia, post-R-CHOP/R-ICE)
+
+DIVERSITY (LOW-MODERATE - SUBOPTIMAL):
+- Shannon Index: 2.7 [LOW - risk for poor CAR-T outcomes]
+- Simpson Index: 0.82
+- Observed Species: 164 (reduced)
+- Interpretation: Reduced diversity from antibiotics + chemotherapy
+
+COMPOSITION:
+Firmicutes 46.2% | Bacteroidetes 38.8% | Proteobacteria 8.4% ↑ | Actinobacteria 4.2%
+F/B Ratio: 1.19 (low - dysbiosis)
+
+KEY TAXA (% relative abundance):
+
+FAVORABLE (present but suboptimal):
+  - Akkermansia muciniphila: 1.8% [BORDERLINE - reduced]
+  - Faecalibacterium prausnitzii: 3.6% [LOW - key SCFA producer depleted]
+  - Ruminococcaceae: 9.2% [REDUCED]
+  - Ruminococcus lactaris: 1.8% [CAR-T biomarker - Smith 2022]
+  - Lachnospiraceae: 8.8% [REDUCED]
+  - Lachnospira pectinoschiza: 1.2% [CAR-T favorable - Stein-Thoeringer]
+  - Roseburia: 1.8%
+  - Bifidobacterium spp.: 2.2% total [LOW]
+  - Bacteroides eggerthii: 2.4% [CAR-T response predictor]
+
+CONCERNING (elevated):
+ - Proteobacteria: 8.4% [ELEVATED - dysbiosis marker]
+ -  E. coli: 4.2% [ELEVATED - antibiotic selection]
+ -  Klebsiella pneumoniae: 1.8% [ELEVATED]
+ -  Enterococcus faecalis: 2.1% [ELEVATED - pathobiont]
+ -  Bacteroides uniformis: 3.6% [CRS risk - Stein-Thoeringer 2023]
+ -  Blautia spp.: 4.2% [High Blautia → worse CAR-T outcomes]
+ -  Bacteroides ovatus: 4.8%
+
+METABOLITES (Measured):
+
+SCFAs (GC-MS):
+ - Butyrate: 15.8 μM [LOW - CRITICAL for CD8+ T-cell function]
+ - Propionate: 11.2 μM [LOW-MODERATE]
+ - Acetate: 38.4 μM [MODERATE]
+ - Total SCFA: 71.0 μM [LOW - suboptimal for T-cell support]
+
+Interpretation: REDUCED SCFA production is a major concern. Butyrate is critical
+for CAR-T cell cytotoxicity. Low levels correlate with reduced Faecalibacterium.
+
+Bile Acids (LC-MS/MS):
+ - Secondary bile acids: 18.2 μM [LOW]
+ - Secondary/Primary: 0.81 [LOW - reduced microbial conversion]
+
+Tryptophan Metabolites (LC-MS/MS):
+- NOT DETECTED - pathway significantly disrupted
+
+FUNCTIONAL PATHWAYS:
+ - SCFA biosynthesis: 2.8% [SIGNIFICANTLY REDUCED]
+ - Butyrate production: 1.2% [CRITICALLY LOW]
+ - Vitamin B synthesis: 2.1% [REDUCED]
+ - LPS biosynthesis: 2.8% [ELEVATED - inflammation risk]
+ - Antibiotic resistance genes: Detected (fluoroquinolone markers)
+
+CLINICAL INTERPRETATION FOR CAR-T:
+
+OVERALL: SUBOPTIMAL BUT MODIFIABLE (33-day intervention window)
+
+MAJOR CONCERNS (worse CAR-T outcomes in literature):
+1. LOW diversity (2.7) - Smith 2022: associated with worse response
+2. LOW butyrate (15.8 μM) - Luu 2021: critical for CD8+ T-cell cytotoxicity
+3. REDUCED Faecalibacterium (3.6%) - key SCFA producer depleted
+4. ACTIVE fluoroquinolone - Prasad 2024: ongoing disruption
+5. ELEVATED Proteobacteria (8.4%) - dysbiosis/inflammation
+6. ELEVATED Bacteroides uniformis (3.6%) - CRS risk marker
+7. High Blautia (4.2%) - associated with worse outcomes
+
+FAVORABLE ASPECTS:
+ - Akkermansia present (1.8%) - not completely depleted
+ - Ruminococcus lactaris present (1.8%) - CAR-T biomarker
+ - Bacteroides eggerthii present (2.4%) - response predictor
+ - NO PPI use - not adding dysbiosis
+ - 33 DAYS until CAR-T - TIME TO INTERVENE
+
+CRS RISK (microbiome-based): MODERATE-HIGH
+- Low diversity, elevated B. uniformis/Blautia, pro-inflammatory dysbiosis
+
+NEUROTOXICITY RISK: MODERATE
+- Low SCFA (neuroprotective effects diminished)
+
+================================================================================
+URGENT RECOMMENDATIONS (33-Day Optimization Window):
+
+1.  DISCONTINUE LEVOFLOXACIN (consult ID)
+   - Ongoing fluoroquinolone perpetuating dysbiosis
+   - Risk/Benefit: Infection risk vs CAR-T efficacy
+
+2. HIGH-DOSE PROBIOTICS (start immediately):
+   - Multi-strain: Lactobacillus + Bifidobacterium
+   - Example: Visbiome 900B CFU BID
+   - Rationale: Restore beneficial bacteria
+
+3. BUTYRATE ENHANCEMENT (critical):
+   - Clostridium butyricum 2B CFU daily
+   - High-fiber diet (25-30g/day)
+   - Resistant starch 20g/day
+   - Target: Restore butyrate before CAR-T
+
+4. DIETARY INTERVENTION (nutritionist consult):
+   - High-fiber, plant-based foods
+   - Prebiotics: Inulin, pectin, resistant starch
+   - Fermented foods: Yogurt, kefir (if ANC >1.5)
+
+5. REPEAT MICROBIOME (March 1, 2026):
+   - 1 week before lymphodepletion
+   - Goal: Shannon >3.0, Butyrate >25 μM
+   - Consider FMT if persistent dysbiosis
+
+6. CONSIDER FMT:
+   - If repeat shows persistent severe dysbiosis
+   - Timing: ≥1 week before lymphodepletion
+
+DATA QUALITY:
+- Sample integrity: Good, adequate depth
+- Limitations: Single time-point during active antibiotics
+- Context: Results reflect antibiotic-disrupted state
+
+Report: Dr. Jennifer Park, PhD | Clinical: Dr. Rachel Kim, PharmD
+Date: February 7, 2026
+
+================================================================================
+
+ASSESSMENT & PLAN:
+
+60yo male with R/R DLBCL (stage IV, BM+) post R-CHOP/R-ICE, planned for CD19
+CAR-T (axicabtagene ciloleucel) on March 10, 2026.
+
+CAR-T CANDIDACY: ✓ APPROVED
+- CD19+ disease, no contraindications
+- ECOG 2 acceptable, cardiac/CNS cleared
+
+MICROBIOME: SUBOPTIMAL BUT MODIFIABLE
+- Active antibiotic dysbiosis
+- LOW butyrate → CD8+ T-cell concern
+- Moderate-high CRS risk based on microbiome
+- 33-day intervention window
+
+PLAN:
+
+1. LEUKAPHERESIS: February 14, 2026
+
+2. MICROBIOME OPTIMIZATION (URGENT):
+   A. ID Consult: Discontinue levofloxacin if safe
+   B. Probiotics: Visbiome 900B CFU BID (start now)
+   C. Butyrate: C. butyricum + resistant starch
+   D. Diet: High-fiber (nutritionist Feb 10)
+   E. Repeat microbiome: March 1 (pre-lymphodepletion)
+
+3. LYMPHODEPLETION: March 7-9 (Flu/Cy)
+
+4. CAR-T INFUSION: March 10 (Day 0)
+
+5. POST-CAR-T MONITORING (high CRS/neurotoxicity risk):
+   - ICU-level monitoring × 48hr
+   - Daily neuro assessments (ICE score)
+   - Tocilizumab/dexamethasone available bedside
+   - CBC/CMP daily × 14 days
+
+6. RESPONSE ASSESSMENT:
+   - Day +30: PET-CT, MRD
+   - Microbiome correlation at Days +30, +100
+
+PROGNOSIS: Guardedly optimistic. CAR-T shows 50-60% durable CR in R/R DLBCL.
+Microbiome optimization may improve outcomes and reduce toxicity.
+
+FOLLOW-UP:
+- Leukapheresis: Feb 14
+- Nutritionist: Feb 10
+- ID consult: Feb 9 (re: levofloxacin)
+- Repeat microbiome: Mar 1
+- Admission: Mar 7
+
+________________________________________________________________________________
+Dr. Rachel Kim, MD | Cellular Therapy & Hematologic Malignancies
+Co-signed: Dr. David Martinez, MD, PhD (CAR-T Program Director)
+February 8, 2026
+================================================================================

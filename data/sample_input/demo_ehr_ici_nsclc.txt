@@ -1,0 +1,178 @@
+================================================================================
+COMPREHENSIVE CANCER CENTER - THORACIC ONCOLOGY
+================================================================================
+Patient: Sarah Chen | MRN: CCC-782934 | DOB: 03/22/1959 (Age: 66)
+Gender: Female | Visit Date: February 12, 2026
+
+CHIEF COMPLAINT:
+First-line immunotherapy consultation for metastatic NSCLC.
+
+HISTORY:
+66-year-old never-smoker with stage IV lung adenocarcinoma diagnosed December 2025.
+Presented with cough and dyspnea. Imaging showed 4.2cm right upper lobe mass with
+mediastinal nodes and malignant pleural effusion.
+
+CANCER DIAGNOSIS:
+- Primary: Right upper lobe adenocarcinoma (TTF-1+, Napsin-A+)
+- Stage: IVA (T3N2M1a) - Malignant pleural effusion
+- Diagnosis Date: December 8, 2025
+- Molecular: KRAS G12C mutation; EGFR/ALK/ROS1/BRAF negative
+
+BIOMARKERS (Immunotherapy-Relevant):
+- PD-L1: 65% TPS (22C3 assay) - HIGH, favorable for pembrolizumab monotherapy
+- TMB: 18 mutations/megabase - HIGH
+- MSI: Stable (MSS)
+
+TREATMENT PLAN:
+Pembrolizumab 200mg IV Q3W starting February 19, 2026 (first-line monotherapy).
+
+CURRENT MEDICATIONS:
+1. Metoprolol 50mg daily (atrial fibrillation)
+2. Apixaban 5mg BID (anticoagulation)
+3. Levothyroxine 75mcg daily (hypothyroidism)
+4. Vitamin D3 1000 IU daily
+5. Calcium carbonate 500mg BID
+
+ANTIBIOTIC EXPOSURE:
+- Recent: Levofloxacin 750mg daily × 5 days (Dec 28, 2025 - Jan 1, 2026)
+- Indication: Community-acquired pneumonia
+- Days before immunotherapy: 49 days (FULLY RECOVERED per microbiome)
+- No other antibiotics in past 6 months
+
+PPI USE: None (no GERD symptoms)
+
+PAST MEDICAL HISTORY:
+Atrial fibrillation, hypothyroidism, osteopenia, hypertension. No autoimmune disease.
+
+SOCIAL HISTORY:
+Never-smoker, rare alcohol use. Retired librarian. Diet: Predominantly plant-based,
+high in vegetables and whole grains (relevant to favorable microbiome).
+
+PERFORMANCE STATUS: ECOG 1 | Karnofsky 80%
+
+VITALS: BP 118/76 | HR 68 (irregular) | SpO2 94% RA | Temp 98.2°F
+Weight 128 lbs (58 kg) | Height 5'4" (163 cm) | BMI 22.0
+
+KEY LABS (February 10, 2026):
+- WBC 6.8, Hgb 12.4, Plt 278, ANC 4.2
+- Creatinine 0.8, eGFR >90
+- AST/ALT 24/28, normal LFTs
+- TSH 2.8 (on levothyroxine - stable)
+- LDH 198 (normal), CRP 12.5, CEA 8.4
+
+IMAGING (February 2026):
+- CT: 4.2cm RUL mass, mediastinal nodes, moderate pleural effusion
+- MRI Brain: No metastases
+- PET: Primary SUVmax 14.2, nodes SUVmax 8.7
+
+================================================================================
+MICROBIOME ANALYSIS - HIGHLY FAVORABLE PROFILE
+================================================================================
+Sample Date: February 7, 2026
+Method: Shotgun metagenomic sequencing (Illumina NovaSeq, 15M reads)
+Lab: Precision Microbiome Diagnostics
+
+DIVERSITY (HIGH - FAVORABLE):
+- Shannon Index: 3.6 
+- Simpson Index: 0.91 
+- Observed Species: 247
+- Interpretation: High diversity consistently associated with better ICI response
+
+COMPOSITION:
+Firmicutes 52.8% | Bacteroidetes 34.6% | Actinobacteria 8.2% | Proteobacteria 2.8%
+F/B Ratio: 1.53 (balanced)
+
+KEY TAXA (% relative abundance):
+
+FAVORABLE BACTERIA (HIGH - excellent for anti-PD-1):
+ - Akkermansia muciniphila: 4.8% [VERY HIGH - strongest NSCLC predictor]
+ - Faecalibacterium prausnitzii: 8.9% [HIGH - SCFA producer]
+ - Ruminococcaceae family: 14.2% [HIGH - favorable]
+ - Bifidobacterium longum: 3.2% + B. adolescentis: 1.8% [FAVORABLE]
+ - Lachnospiraceae family: 12.8% [HIGH]
+ - Roseburia intestinalis: 3.8% [butyrate producer]
+ - Alistipes putredinis: 2.6% [favorable in NSCLC]
+ - Prevotella copri: 4.2%
+
+LESS FAVORABLE (LOW - good):
+- Bacteroides spp.: 11.3% total (moderate)
+- E. coli: 1.2%, Enterococcus: 0.4%, Fusobacterium: <0.1% (all low - favorable)
+
+METABOLITES (Measured):
+
+SCFAs (GC-MS):
+ - Butyrate: 32.8 μM [HIGH - excellent for CD8+ T cells]
+ - Propionate: 18.6 μM
+ - Acetate: 58.4 μM
+ - Total SCFA: 118.0 μM [HIGH]
+
+Bile Acids (LC-MS/MS):
+- Secondary bile acids: 42.8 μM (high conversion - favorable)
+- Secondary/Primary ratio: 2.33
+
+Tryptophan Metabolites (LC-MS/MS):
+- Indole: 5.2 μM [AhR ligand]
+- Indole-3-aldehyde: 2.8 μM
+- Kynurenine/Tryptophan: 0.34 (moderate IDO activity)
+
+Other:
+- Inosine: 2.4 μM [T-cell activation]
+
+FUNCTIONAL PATHWAYS:
+- SCFA biosynthesis: HIGH
+- Butyrate production: HIGH
+- Vitamin B synthesis: HIGH
+- Bile salt hydrolase: Moderate-High
+
+CLINICAL INTERPRETATION:
+
+OVERALL: HIGHLY FAVORABLE PROFILE FOR PEMBROLIZUMAB
+
+Strengths:
+1.  Very high diversity (Shannon 3.6) - predicts ICI response
+2.  VERY HIGH Akkermansia (4.8%) - strongest predictor in NSCLC (Routy/Derosa)
+3.  High Faecalibacterium (8.9%) - responder taxon
+4.  High Ruminococcaceae (14.2%) - favorable in multiple ICI studies
+5.  Robust SCFA production - supports CD8+ T-cell function
+6.  Plant-based diet correlation with favorable microbiome
+7.  No PPI use - microbiome not disrupted
+8.  Full antibiotic recovery (49 days post-levofloxacin)
+
+Literature Alignment:
+- Routy 2018: Akkermansia >1% favorable → Patient: 4.8% 
+- Gopalakrishnan 2018: High diversity favorable → Patient: High 
+- Derosa 2022: Akkermansia predicts NSCLC response → Patient: Very high 
+
+Predicted Response: FAVORABLE microbiome signature for pembrolizumab in NSCLC.
+
+RECOMMENDATIONS:
+1. Continue high-fiber, plant-based diet
+2. Avoid antibiotics during treatment if possible
+3. Maintain PPI-free status
+4. Repeat microbiome at Week 12 with response assessment
+
+================================================================================
+ASSESSMENT & PLAN:
+
+66yo never-smoker with stage IVA lung adenocarcinoma (high PD-L1 65%, high TMB 18)
+initiating first-line pembrolizumab monotherapy.
+
+FAVORABLE FACTORS:
+- High PD-L1 (65%), High TMB (18)
+- HIGHLY FAVORABLE microbiome (high diversity, very high Akkermansia, high butyrate)
+- Good performance status (ECOG 1)
+- No PPI use, full antibiotic recovery
+
+PLAN:
+1. Pembrolizumab 200mg IV Q3W starting Feb 19, 2026
+2. Monitor for irAEs (pneumonitis risk given lung disease)
+3. Continue plant-based high-fiber diet
+4. Repeat CT at Week 12 (May 2026)
+5. Repeat microbiome at Week 12 to correlate with response
+
+PROGNOSIS: Guardedly optimistic given favorable biomarkers and microbiome profile.
+
+________________________________________________________________________________
+Dr. Michael Torres, MD, PhD | Thoracic Oncology
+February 12, 2026
+================================================================================
