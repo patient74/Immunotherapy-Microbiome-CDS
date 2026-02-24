@@ -1,5 +1,19 @@
+"""
+Section-specific prompt templates for clinical report generation.
+Optimized for instruction-following in smaller models (e.g. MedGemma 4B IT).
+
+Key design principles applied:
+- Single flat instruction block per section (no nested lists inside lists)
+- Positive framing: tell the model what TO do, not what NOT to do
+- Evidence anchor placed immediately before the generation task
+- Citation format stated once, clearly, close to where citations are used
+- Section headers kept inside the prompt so the model knows its structural role
+- Global instruction kept minimal; section prompts are self-contained
+"""
+
 # =============================================================================
 # Global Instruction (prepended to all section prompts)
+# Kept short — section prompts carry the detailed guidance
 # =============================================================================
 
 GLOBAL_INSTRUCTION = """You are a clinical report writer assisting an oncologist.
@@ -7,7 +21,7 @@ Your output will become one section of a microbiome-immunotherapy report used to
 
 Two rules apply to every section you write:
 - Every factual claim must come directly from the retrieved evidence provided. If the evidence does not address a topic, omit that topic.
-- Every claim must be followed by an inline citation in this exact format: (Author et al., Journal Year). Only cite from the Retrieved evidence section below and nothing else. The citations are present under "paper": "citation".
+- Every claim must be followed by an inline citation in this exact format: (Author et al., Journal Year). Only cite from the Retrieved evidence section below. The citations are present under "paper": "citation"
 
 Write in formal clinical prose. Do not use bullet points unless explicitly instructed.
 """
@@ -39,18 +53,19 @@ Retrieved evidence:
 Task:
 Write this section in two parts.
 
-Part 1 — Diversity characterization: Describe the patient's alpha diversity level. Use the retrieved evidence to characterize whether this diversity profile has been associated with favorable or unfavorable outcomes in this {cancer_type} and {drug_name} context. Cite the evidence.
+Part 1 — Diversity characterization: Describe the patient's alpha diversity level. Use the retrieved evidence to characterize whether this diversity profile has been associated with favorable or unfavorable outcomes in this cancer and immunotherapy context. Cite the evidence.
 
-Part 2 — Taxa characterization: Write one paragraph (10–12 sentences) summarizing only those taxa present in Patient microbiome data that are supported by the Retrieved evidence.
+Part 2 — Taxa characterization: For each detected taxon above that appears in the retrieved evidence, describe its observed relative abundance and what the evidence associates it with in this clinical context. Cover only taxa that have retrieved evidence. Cite each association.
+
 Write in descriptive, factual prose. Do not predict this patient's individual outcome.
 
-Use inline citation (Author et al., Journal Year) from the Retrieved evidence for every claim you make in this section 
 Begin writing Section 1 now:
 """
 
 # =============================================================================
 # Section 2: Metabolite Landscape
 # =============================================================================
+
 SECTION_2_PROMPT = """{global_instruction}
 
 ---
@@ -73,9 +88,11 @@ Write a functional interpretation of the patient's metabolite profile. For each 
 2. Describe what the retrieved evidence says about that metabolite class in the context of immune function and this therapy type. Cite the evidence.
 
 If a metabolite class is present in the patient data but absent from the retrieved evidence, omit it entirely.
-Frame this section as bridging microbiome composition to immune activity.
+Frame this section as bridging microbiome composition to immune activity. Reserve response predictions for Section 3.
 
+Begin writing Section 2 now:
 """
+
 # =============================================================================
 # Section 3: Drug–Microbiome Interaction Outlook (ICI version)
 # =============================================================================
@@ -102,7 +119,6 @@ Retrieved evidence:
 Task:
 Write this section in three parts.
 
-CITATION RULE: Do not place more than one citation in any sentence. Multiple citations in the same sentence are not allowed.
 Part 1 — Overall microbiome-ICI context: Describe what the retrieved evidence says about how this patient's microbiome profile (diversity level and dominant taxa) compares to patterns observed in comparable cohorts treated with this ICI class. Use phrases such as "the evidence suggests" or "studies in comparable cohorts found". Cite all claims.
 
 Part 2 — Individual taxa associations: For each taxon in the patient's key taxa list that appears in the retrieved evidence for this ICI class, describe the association the evidence reports (favorable, unfavorable, or bidirectional). If evidence reports both efficacy and immune-related adverse event (irAE) associations for the same taxon, state both explicitly. Cite each association.
@@ -111,7 +127,6 @@ Part 3 — Alpha diversity in this treatment setting: Describe what the retrieve
 
 Do not predict this individual patient's outcome. Attribute all findings to the evidence source.
 
-Present each part findings as one concise paragraph. Do not use bullet points, numbered lists, or taxon-by-taxon line breaks.
 Begin writing Section 3 now:
 """
 
@@ -141,8 +156,7 @@ Retrieved evidence:
 {evidence}
 
 Task:
-Write this section in four parts. One brief paragraph (5-8 sentences) for each section 
-Use inline citation (Author et al., Journal Year) from the Retrieved evidence for every claim you make in this section 
+Write this section in four parts.
 
 Part 1 — Overall microbiome-ACT context: Describe what the retrieved evidence says about how this patient's microbiome profile relates to outcomes observed in comparable ACT cohorts. Use phrases such as "the evidence suggests" or "studies in ACT cohorts found". Cite all claims.
 
@@ -178,8 +192,7 @@ Retrieved evidence:
 {evidence}
 
 Task:
-
-Write this section in four parts.
+For each confounding factor present in the patient data above, write one paragraph using only the retrieved evidence.
 
 Antibiotic exposure: If present, describe what the retrieved evidence says about antibiotic timing relative to ICI initiation and its documented interactions with microbiome-mediated ICI efficacy. If the evidence distinguishes by antibiotic class, include that distinction. Cite the evidence.
 
@@ -191,8 +204,6 @@ Comorbidities: Include only if the retrieved evidence directly links the recorde
 
 If no confounding factors are present in the patient data, or if no retrieved evidence addresses the recorded factors, output exactly this sentence:
 "No significant confounding factors with established microbiome-immunotherapy interactions were identified in the available data."
-
-CITATION RULE: Do not place more than one citation in any sentence. Multiple citations in the same sentence are not allowed.
 
 Begin writing Section 4 now:
 """
@@ -216,12 +227,12 @@ Retrieved evidence by intervention type:
 {evidence}
 
 Task:
-Generate a sub-section for each of the two intervention type that has supporting evidence in the retrieved chunks above. Skip any intervention type with no retrieved evidence — do not note its absence.
+Generate a sub-section for each intervention type that has supporting evidence in the retrieved chunks above. Skip any intervention type with no retrieved evidence — do not note its absence.
 
 For each sub-section that has evidence, use this structure:
 
 Sub-section title (e.g., "Dietary and Prebiotic Approaches" or "Probiotic Supplementation")
-Write 2-4 sentences describing what the retrieved evidence found about this intervention {drug_name} ({drug_class}) in this cancer ({cancer_type}). State the finding, cite it (Author et al., Journal Year), and note any caveat the evidence itself raises. Close with one sentence framing it as a consideration for clinical discussion rather than a recommendation.
+Write 2–4 sentences describing what the retrieved evidence found about this intervention in this cancer and therapy context. State the finding, cite it, and note any caveat the evidence itself raises. Close with one sentence framing it as a consideration for clinical discussion rather than a recommendation.
 
 Tone: exploratory and evidence-grounded. This section informs discussion; it does not prescribe.
 
@@ -249,7 +260,14 @@ Patient sample data quality:
 {data_quality}
 
 Task:
-Only write 1–3 sentences and nothing else. Address only what is specific to this patient's sample based on the data quality fields above.
+Write 1–3 sentences addressing only what is specific to this patient's sample based on the data quality fields above.
+
+Follow these rules in order:
+- If completeness is "high" and no limitations are listed, write exactly: "No significant data quality limitations were identified for this sample."
+- If completeness is below "high" or limitations are listed: name each affected data domain and state which section (Section 2 or Section 3) is consequently limited in its interpretation.
+- If a metabolite class is listed as unavailable in the data quality fields, name it and describe the resulting interpretive gap. Only name classes that are explicitly listed as unavailable.
+
+Do not add general statements about microbiome variability or evolving evidence — those appear in a separate fixed caveats section.
 
 Begin writing Section 6 now:
 """
@@ -303,6 +321,3 @@ def build_prompt(section_name: str, patient_data: dict, evidence: str, **kwargs)
         kwargs["drug_class"] = patient_data["immunotherapy"]["drug_class"]
 
     return template.format(**kwargs)
-
-
-

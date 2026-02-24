@@ -1,0 +1,149 @@
+{
+  "extraction_version": "1.0",
+  "extraction_date": "2026-02-23",
+  "patient": {
+    "id": "UMC-556219",
+    "age": 60,
+    "gender": "Male"
+  },
+  "cancer": {
+    "type": "Diffuse Large B-Cell Lymphoma",
+    "subtype": "non-GCB (ABC type)",
+    "stage": "IV",
+    "primary_site": "Lymphoma",
+    "metastases": [
+      "Bone marrow (15% involvement)",
+      "Retroperitoneal nodes (3.2cm)",
+      "Mesenteric mass (4.8cm)"
+    ],
+    "biomarkers": {
+      "pdl1_expression": "N/A",
+      "tmb": "N/A",
+      "msi_status": "MSS"
+    },
+    "diagnosis_date": "2024-03-18"
+  },
+  "immunotherapy": {
+    "therapy_type": "ACT",
+    "drug_name": "Axicabtagene ciloleucel",
+    "drug_class": "CAR-T",
+    "treatment_setting": "metastatic",
+    "line_of_therapy": "Second-line",
+    "planned_start_date": "2026-03-10",
+    "ici_details": null,
+    "act_details": {
+      "act_type": "CAR-T",
+      "target_antigen": "CD19",
+      "cell_source": "autologous",
+      "preconditioning_regimen": "Fludarabine + Cyclophosphamide",
+      "t_cell_harvest_date": "2026-02-14",
+      "expected_crs_risk": "moderate-high",
+      "expected_neurotoxicity_risk": "moderate"
+    }
+  },
+  "prior_treatments": {
+    "chemotherapy": {
+      "received": true,
+      "regimens": [
+        "R-CHOP",
+        "R-ICE",
+        "Gemcitabine (bridging)"
+      ],
+      "response": "CR (R-CHOP), PR (R-ICE), Stable disease (Gemcitabine)"
+    },
+    "prior_immunotherapy": {
+      "received": true,
+      "drugs": [],
+      "response": ""
+    }
+  },
+  "medications": {
+    "ppi_use": {
+      "currently_on_ppi": false,
+      "ppi_name": "",
+      "duration_months": 0
+    },
+    "antibiotic_history": {
+      "recent_antibiotics": true,
+      "exposures": [
+        {
+          "antibiotic_name": "Levofloxacin 500mg",
+          "antibiotic_class": "fluoroquinolone",
+          "start_date": "2026-01-25",
+          "end_date": "2026-02-05",
+          "days_before_ici": 14
+        },
+        {
+          "antibiotic_name": "Piperacillin-tazobactam 4.5g",
+          "antibiotic_class": "beta-lactam",
+          "start_date": "2025-12-18",
+          "end_date": "2025-12-27",
+          "days_before_ici": 73
+        }
+      ]
+    }
+  },
+  "comorbidities": [
+    "Hypertension",
+    "hyperlipidemia",
+    "Type 2 diabetes",
+    "chronic back pain"
+  ],
+  "microbiome": {
+    "sample_date": "2026-02-05",
+    "sequencing_method": "Shotgun metagenomic sequencing (Illumina NovaSeq, 12M reads)",
+    "diversity": {
+      "shannon_index": 2.7,
+      "simpson_index": 0.82,
+      "observed_species": 164
+    },
+    "key_bacteria": {
+      "Akkermansia muciniphila": 1.8,
+      "Faecalibacterium prausnitzii": 3.6,
+      "Ruminococcaceae": 9.2,
+      "Ruminococcus lactaris": 1.8,
+      "Lachnospiraceae": 8.8,
+      "Lachnospira pectinoschiza": 1.2,
+      "Roseburia": 1.8,
+      "Bifidobacterium spp.": 2.2,
+      "Bacteroides eggerthii": 2.4,
+      "Proteobacteria": 8.4,
+      "E. coli": 4.2,
+      "Klebsiella pneumoniae": 1.8,
+      "Enterococcus faecalis": 2.1,
+      "Bacteroides uniformis": 3.6,
+      "Blautia spp.": 4.2
+    },
+    "metabolites": {
+      "scfa": {
+        "butyrate_uM": 15.8,
+        "propionate_uM": 11.2,
+        "acetate_uM": 38.4
+      },
+      "bile_acids_available": true,
+      "tryptophan_metabolites_available": false
+    },
+    "data_quality": {
+      "completeness": "moderate",
+      "source": "Precision Microbiome Diagnostics",
+      "limitations": [
+        "Single time-point during active antibiotics",
+        "Reduced diversity from antibiotics + chemotherapy"
+      ]
+    }
+  },
+  "clinical_context": {
+    "urgency": "",
+    "patient_goals": [
+      "CAR-T therapy consultation",
+      "Relapsed/Refractory DLBCL treatment"
+    ],
+    "specific_concerns": [
+      "CAR-T efficacy",
+      "CAR-T toxicity (CRS, neurotoxicity)",
+      "Microbiome dysbiosis",
+      "Low butyrate",
+      "Antibiotic disruption"
+    ]
+  }
+}

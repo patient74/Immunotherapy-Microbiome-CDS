@@ -472,18 +472,17 @@ This report summarizes gut microbiome findings relevant to anticipated immunothe
             dq_lines.append(f"**Missing Metabolite Data:** {', '.join(missing_metabolites)}")
         
         data_quality_str = "\n".join(dq_lines)
-        
+
+        from .prompts import SECTION_6_PROMPT, SECTION_6_FIXED_CAVEATS
+
         # Build prompt (no RAG evidence needed)
-        from .prompts import SECTION_6_PROMPT
         prompt = SECTION_6_PROMPT.format(data_quality=data_quality_str)
-        
+
         # Generate
         content = self.llm.generate(prompt, max_new_tokens=config.SECTION_MAX_NEW_TOKENS["section_6"])
-        
-        from .prompts import SECTION_6_FIXED_CAVEATS
+
         full_content = f"{SECTION_6_FIXED_CAVEATS}\n\n{content}"
-        return f"## 6. Data Quality & Interpretive Limitations\n\n{full_content}\n\n"
-    
+        return f"## 6. Data Quality & Interpretive Limitations\n\n{full_content}\n\n"    
     def get_all_citations(self) -> List[tuple]:
         """Return sorted list of all unique (citation, title) tuples used in the report"""
         return sorted(list(self.all_citations.items()))

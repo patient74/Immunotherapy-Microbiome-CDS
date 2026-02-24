@@ -1,0 +1,114 @@
+{
+  "extraction_version": "1.0",
+  "extraction_date": "2026-02-23",
+  "patient": {
+    "id": "CCC-782934",
+    "age": 66,
+    "gender": "Female"
+  },
+  "cancer": {
+    "type": "Lung adenocarcinoma",
+    "subtype": "Non-GCB (ABC type)",
+    "stage": "IVA",
+    "primary_site": "Right upper lobe",
+    "metastases": [
+      "Mediastinal nodes",
+      "Malignant pleural effusion"
+    ],
+    "biomarkers": {
+      "pdl1_expression": "65% TPS",
+      "tmb": "18 mutations/megabase",
+      "msi_status": "MSS"
+    },
+    "diagnosis_date": "2025-12-08"
+  },
+  "immunotherapy": {
+    "therapy_type": "ICI",
+    "drug_name": "Pembrolizumab",
+    "drug_class": "PD-1 inhibitor",
+    "treatment_setting": "First-line",
+    "line_of_therapy": "First-line",
+    "planned_start_date": "2026-02-19",
+    "ici_details": {
+      "ici_target": "PD-1",
+      "PD-L1": "65% TPS",
+      "CTLA-4": null
+    },
+    "act_details": null
+  },
+  "prior_treatments": {
+    "chemotherapy": {
+      "received": false,
+      "regimens": [],
+      "response": ""
+    },
+    "prior_immunotherapy": {
+      "received": false,
+      "drugs": [],
+      "response": ""
+    }
+  },
+  "medications": {
+    "ppi_use": {
+      "currently_on_ppi": false,
+      "ppi_name": "",
+      "duration_months": 0
+    },
+    "antibiotic_history": {
+      "recent_antibiotics": true,
+      "exposures": [
+        {
+          "antibiotic_name": "Levofloxacin 750mg",
+          "antibiotic_class": "fluoroquinolone",
+          "start_date": "2025-12-28",
+          "end_date": "2025-12-31",
+          "days_before_ici": 49
+        }
+      ]
+    }
+  },
+  "comorbidities": [],
+  "microbiome": {
+    "sample_date": "2026-02-07",
+    "sequencing_method": "Shotgun metagenomic sequencing (Illumina NovaSeq, 15M reads)",
+    "diversity": {
+      "shannon_index": 3.6,
+      "simpson_index": 0.91,
+      "observed_species": 247
+    },
+    "key_bacteria": {
+      "Akkermansia muciniphila": 4.8,
+      "Faecalibacterium prausnitzii": 8.9,
+      "Ruminococcaceae family": 14.2,
+      "Bifidobacterium longum": 3.2,
+      "Bifidobacterium adolescentis": 1.8,
+      "Lachnospiraceae family": 12.8,
+      "Roseburia intestinalis": 3.8,
+      "Alistipes putredinis": 2.6,
+      "Prevotella copri": 4.2,
+      "Bacteroides spp.": 11.3,
+      "E. coli": 1.2,
+      "Enterococcus": 0.4,
+      "Fusobacterium": 0.1
+    },
+    "metabolites": {
+      "scfa": {
+        "butyrate_uM": 32.8,
+        "propionate_uM": 18.6,
+        "acetate_uM": 58.4
+      },
+      "bile_acids_available": true,
+      "tryptophan_metabolites_available": true
+    },
+    "data_quality": {
+      "completeness": "high",
+      "source": "Precision Microbiome Diagnostics",
+      "limitations": []
+    }
+  },
+  "clinical_context": {
+    "urgency": "",
+    "patient_goals": [],
+    "specific_concerns": []
+  }
+}

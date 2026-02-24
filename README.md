@@ -1,5 +1,5 @@
 # Microbiome-Immunotherapy Clinical Decision Support System
-### An Evidence-Based Clinical Decision Support Tool
+### Evidence-based microbiome analytics to support cancer immunotherapy decisions
 
 This project provides a sophisticated clinical decision support system that optimizes immunotherapy (ICI/ACT) treatments based on a patient's gut microbiome profile. It leverages MedGemma 1.5 4B and a specialized RAG pipeline to generate evidence-based clinical reports.
 

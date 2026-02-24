@@ -37,12 +37,12 @@ GENERATION_CONFIG ={
 
 
 SECTION_MAX_NEW_TOKENS = {
-    "section_1": 2200,  
-    "section_2": 2400,   
+    "section_1": 1800,  
+    "section_2": 1100,   
     "section_3": 3000,  
-    "section_4": 2200,   
+    "section_4": 1800,   
     "section_5": 2400,   
-    "section_6": 1000,   
+    "section_6": 1500,   
 }
 
 # =============================================================================
@@ -59,8 +59,8 @@ CHROMADB_PERSIST_DIRECTORY = "/content/chroma_db"  # Adjust to your actual path
 # Number of chunks to retrieve per section
 RAG_TOP_K = {
     "section_1": 5,   # Composition Profile
-    "section_2": 8,   # Metabolite Landscape
-    "section_3": 12,   # Drug-Microbiome Interaction (most evidence-dense)
+    "section_2": 5,   # Metabolite Landscape
+    "section_3": 9,   # Drug-Microbiome Interaction (most evidence-dense)
     "section_4": 7,   # Confounding Factors
     "section_5": 7,   # Intervention Considerations
 }
@@ -155,3 +155,4 @@ ACT_DRUG_CLASS_MAP = {
     "idecabtagene vicleucel": "CAR-T (BCMA-targeted)",
     "ciltacabtagene autoleucel": "CAR-T (BCMA-targeted)",
 }
+
