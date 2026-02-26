@@ -28,8 +28,7 @@ Each section is generated using targeted RAG retrieval from a database of peer-r
 ```text
 ├── rag/               # RAG pipeline for indexing medical papers
 ├── src/               # Core application logic (models, prompts, generators)
-├── data/              # Patient data and clinical inputs
-├── outputs/           # Generated clinical reports (Markdown)
+├── data/              # Patient data, clinical inputs and generated clinical reports (Markdown)          
 ├── generate_report.py # Main CLI entry point
 └── requirements.txt   # Project dependencies
 ```
