@@ -38,8 +38,8 @@ Each section is generated using targeted RAG retrieval from a database of peer-r
 
 ### Prerequisites
 
--  First get the RAG ready. See `rag/README.md`s
-  (For demonstration purpose a RAG system is already hosted as a [HuggingFace Dataset](https://huggingface.co/datasets/fierce74/RAG-Immunotherapy-Microbiome-CDS) 
+-  First get the RAG ready. See `rag/README.md`
+  (For demonstration purpose a RAG system is already hosted as a [HuggingFace Dataset](https://huggingface.co/datasets/fierce74/RAG-Immunotherapy-Microbiome-CDS) )
 -   Python 3.10+
 -   CUDA-compatible GPU (recommended for MedGemma and PubMedBERT)
 -   HuggingFace access for `google/medgemma-1.5-4b-it`
@@ -68,5 +68,5 @@ python generate_report.py data/patient_ehr.txt --save-ehr-json outputs/patient_p
 ## Examples
 See `data/sample_input` for EHR examples and `output` for the corresponding output  
 ## Configuration
-See src/config.py to set the MAX_NEW_TOKENS and number of chunks to retrieve for each section of the report
+See `src/config.py` to set the MAX_NEW_TOKENS and number of chunks to retrieve for each section of the report
 Settings for model IDs, device selection (CPU/GPU), and RAG parameters can be found in `src/config.py`.
