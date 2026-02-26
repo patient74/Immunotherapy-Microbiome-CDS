@@ -70,4 +70,3 @@ See `data/sample_input` for EHR examples and `output` for the corresponding outp
 ## Configuration
 See `src/config.py` to set the MAX_NEW_TOKENS and number of chunks to retrieve for each section of the report  
 
-Settings for model IDs, device selection (CPU/GPU), and RAG parameters can be found in `src/config.py`.
